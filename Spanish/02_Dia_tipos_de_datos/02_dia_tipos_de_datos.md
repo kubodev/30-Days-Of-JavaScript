@@ -25,11 +25,11 @@
   - [Números](#números)
     - [Declaración de tipos de datos numéricos](#declaración-de-tipos-de-datos-numéricos)
     - [Objeto Math](#objeto-math)
-      - [Random Number Generator](#random-number-generator)
+      - [Generador de números aleatorios](#generador-de-números-aleatorios)
   - [Strings](#strings)
-    - [String Concatenation](#string-concatenation)
-      - [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
-      - [Long Literal Strings](#long-literal-strings)
+    - [Concatenación de String](#concatenación-de-string)
+      - [Concatenar usando el operador de suma](#concatenar-usando-el-operador-de-suma)
+      - [Strings Largos](#strings-largos)
       - [Escape Sequences in Strings](#escape-sequences-in-strings)
       - [Template Literals (Template Strings)](#template-literals-template-strings)
     - [String Methods](#string-methods)
@@ -239,7 +239,7 @@ Math.cos(0)
 Math.cos(60)
 ```
 
-#### Random Number Generator
+#### Generador de números aleatorios
 
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
@@ -276,7 +276,7 @@ let quote = "The saying,'Seeing is Believing' is not correct in 2020."
 let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
 ```
 
-### String Concatenation
+### Concatenación de String
 
 Connecting two or more strings together is called concatenation.
 Using the strings declared in the previous String section:
@@ -292,7 +292,7 @@ Asabeneh Yetayeh
 
 We can concatenate strings in different ways.
 
-#### Concatenating Using Addition Operator
+#### Concatenar usando el operador de suma
 
 Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings (explained later on).
 
@@ -318,7 +318,7 @@ console.log(personInfoOne)
 Asabeneh Yetayeh. I am 250. I live in Finland
 ```
 
-#### Long Literal Strings
+#### Strings Largos
 
 A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
 **Example:**
