@@ -22,6 +22,7 @@
   </div>
 </div>
 
+[Day 2 >>](./02_Dia_tipos_de_datos/02_dia_tipos_de_datos.md)
 
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
