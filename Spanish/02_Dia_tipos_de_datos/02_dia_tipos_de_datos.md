@@ -12,7 +12,6 @@
   <small> January, 2020</small>
   </sub>
 </div>
-</div>
 
 [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
@@ -30,19 +29,19 @@
     - [Concatenación de String](#concatenación-de-string)
       - [Concatenar usando el operador de suma](#concatenar-usando-el-operador-de-suma)
       - [Strings Largos](#strings-largos)
-      - [Escape Sequences in Strings](#escape-sequences-in-strings)
-      - [Template Literals (Template Strings)](#template-literals-template-strings)
-    - [String Methods](#string-methods)
-  - [Checking Data Types and Casting](#checking-data-types-and-casting)
-    - [Checking Data Types](#checking-data-types)
-    - [Changing Data Type (Casting)](#changing-data-type-casting)
-      - [String to Int](#string-to-int)
-      - [String to Float](#string-to-float)
-      - [Float to Int](#float-to-int)
-  - [💻 Day 2: Exercises](#-day-2-exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
+      - [Escapar Strings](#escapar-strings)
+      - [Template Literales (Template Strings)](#template-literales-template-strings)
+    - [Métodos de String](#métodos-de-String)
+  - [Comprobación de tipos de datos y casting (conversión)](#comprobación-de-tipos-de-datos-y-casting-conversión)
+    - [Comprobación de tipos de datos](#comprobación-de-tipos-de-datos)
+    - [Cambio del tipo de datos (casting)](#cambio-del-tipo-de-datos-casting)
+      - [String a Int](#string-a-int)
+      - [String a Float](#string-a-float)
+      - [Float a Int](#float-to-int)
+  - [💻 Día 2: ejercicios](#-día-2-ejercicios)
+    - [Ejercicio: Nivel 1](#ejercicio-nivel-1)
+    - [Ejercicio: Nivel 2](#ejercicio-nivel-2)
+    - [Ejercicios: Nivel 3](#ejercicios-nivel-3)
 
 # 📔 Día 2
 
@@ -336,7 +335,7 @@ I hope you are enjoying too."
 console.log(paragraph)
 ```
 
-#### Escape Sequences in Strings
+#### Escapar Strings
 
 In JavaScript and other programming languages \ followed by some characters is an escape sequence. Let's see the most common escape characters:
 
@@ -375,7 +374,7 @@ In every programming language it starts with 'Hello, World!'
 The saying 'Seeing is Believing' isn't correct in 2020
 ```
 
-#### Template Literals (Template Strings)
+#### Template Literales (Template Strings)
 
 To create a template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign. See the syntax below.
 
@@ -429,7 +428,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 2 is greater than 3: false
 ```
 
-### String Methods
+### Métodos de String
 
 Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
@@ -784,9 +783,9 @@ let string = 'love'
 console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
 ```
 
-## Checking Data Types and Casting
+## Comprobación de tipos de datos y casting (conversión)
 
-### Checking Data Types
+### Comprobación de tipos de datos
 
 To check the data type of a certain variable we use the _typeof_ method.
 
@@ -815,12 +814,12 @@ console.log(typeof undefined)   // undefined
 console.log(typeof null)        // object
 ```
 
-### Changing Data Type (Casting)
+### Cambio del tipo de datos (casting)
 
 - Casting: Converting one data type to another data type. We use _parseInt()_, _parseFloat()_, _Number()_, _+ sign_, _str()_
   When we do arithmetic operations string numbers should be first converted to integer or float if not it returns an error.
 
-#### String to Int
+#### String a Int
 
 We can convert string number to a number. Any number inside a quote is a string number. An example of a string number: '10', '5', etc.
 We can convert string to number using the following methods:
@@ -849,7 +848,7 @@ let numInt = +num
 console.log(numInt) // 10
 ```
 
-#### String to Float
+#### String a Float
 
 We can convert string float number to a float number. Any float number inside a quote is a string float number. An example of a string float number: '9.81', '3.14', '1.44', etc.
 We can convert string float to number using the following methods:
@@ -879,7 +878,7 @@ let numFloat = +num
 console.log(numInt) // 9.81
 ```
 
-#### Float to Int
+#### Float a Int
 
 We can convert float numbers to integers.
 We use the following method to convert float to int:
@@ -895,9 +894,9 @@ console.log(numInt) // 9
 
 🌕  You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.  
 
-## 💻 Day 2: Exercises
+## 💻 Día 2: ejercicios
 
-### Exercise: Level 1
+### Ejercicio: Nivel 1
 
 1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
 2. Print the string on the browser console using __console.log()__
@@ -925,7 +924,7 @@ console.log(numInt) // 9
 24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
 25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
 
-### Exercise: Level 2
+### Ejercicio: Nivel 2
 
 1. Using console.log() print out the following statement:
 
@@ -959,7 +958,7 @@ console.log(numInt) // 9
 
 12.  Use __substr__ to slice out the phrase __because because because__ from the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
 
-### Exercises: Level 3
+### Ejercicios: Nivel 3
 
 1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word __love__ in this sentence.
 2. Use __match()__ to count the number of all __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
@@ -973,4 +972,4 @@ console.log(numInt) // 9
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 1](../readMe.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
