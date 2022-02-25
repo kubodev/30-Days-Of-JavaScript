@@ -13,7 +13,7 @@
   </sub>
 </div>
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< Day 1](../readme.md) | [Day 3 >>](../03_Dia_Booleanos_operadores_fecha/03_Dia_Booleanos_operadores_fecha.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_2.png)
 
@@ -972,4 +972,4 @@ console.log(numInt) // 9
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< Day 1](../readme.md) | [Day 3 >>](../03_Dia_Booleanos_operadores_fecha/03_Dia_Booleanos_operadores_fecha.md)
